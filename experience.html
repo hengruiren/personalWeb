@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple static webpage template">
-    <title>My Static Website</title>
+    <meta name="description" content="Hengrui Ren's Experience">
+    <title>Experience - Hengrui Ren</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,7 +33,20 @@
         main {
             flex: 1;
             padding: 2rem;
-            text-align: center;
+            text-align: left; /* Adjusted to align text to the left */
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        p, ul {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            color: #666;
         }
         footer {
             background: #333;
@@ -42,7 +55,7 @@
             padding: 0.5rem 0;
         }
         .social-icons {
-            margin-bottom: 0.5rem;
+            margin-top: 1rem;
         }
         .social-icons a {
             color: #fff;
@@ -59,10 +72,6 @@
             vertical-align: middle;
             margin: 0 0.5rem;
         }
-        .website-name {
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-        }
     </style>
 </head>
 <body>
@@ -72,8 +81,26 @@
         <a href="about.html">About</a>
     </nav>
     <main>
-        <h2>About This Template</h2>
-        <p>This is a simple static webpage template. You can use it as a starting point for your website.</p>
+        <section>
+            <h2>Experience</h2>
+            <h3>Rensselaer Center for Open Source - Full Stack Engineer</h3>
+            <p>January 2024 - May 2024 (5 months)</p>
+            <p>Troy, New York, United States</p>
+            <ul>
+                <li>Developed HACK RPI applications in the Hack RPI Mobile Team, upgraded the user experience by modifying the front-end code, and explored better ways to interact with users.</li>
+                <li>Placed a significant emphasis on optimizing push notification functionality across both Android and iOS platforms for the Hack RPI mobile app, ensuring that users receive timely updates and reminders regarding upcoming events, workshops, and important announcements, thereby enhancing their overall experience with the app.</li>
+                <li>Authored a detailed technical guidance document elucidating the intricacies of push notification integration on both Android and iOS platforms, providing developers with a comprehensive roadmap for seamless implementation and optimization.</li>
+            </ul>
+
+            <h3>Rensselaer Polytechnic Institute - Computer Science Mentor</h3>
+            <p>August 2023 - December 2023 (5 months)</p>
+            <p>Troy, New York, United States</p>
+            <ul>
+                <li>Attended weekly Office Hour and Lab, helped students solve problems in homework and lectures.</li>
+                <li>Met with fellow mentors, teaching assistants, and professors every week to explore different teaching methods.</li>
+                <li>Assisted 70+ students in learning Python and solving their questions.</li>
+            </ul>
+        </section>
     </main>
     <footer>
         <div class="social-icons">

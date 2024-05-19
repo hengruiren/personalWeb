@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple static webpage template">
-    <title>My Static Website</title>
+    <meta name="description" content="About Hengrui Ren">
+    <title>About - Hengrui Ren</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,7 +33,7 @@
         main {
             flex: 1;
             padding: 2rem;
-            text-align: center;
+            text-align: left; /* Adjusted to align text to the left */
         }
         footer {
             background: #333;
@@ -63,6 +63,22 @@
             font-weight: bold;
             margin-bottom: 0.5rem;
         }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        p, ul {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+            color: #666;
+        }
+        a {
+            color: #1a73e8;
+        }
     </style>
 </head>
 <body>
@@ -72,8 +88,31 @@
         <a href="about.html">About</a>
     </nav>
     <main>
-        <h2>About This Template</h2>
-        <p>This is a simple static webpage template. You can use it as a starting point for your website.</p>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:hengrren@gmail.com">hengrren@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/hengrui-ren-53a575253" target="_blank">Hengrui Ren</a></p>
+            <p>Phone: [Your Phone Number Here]</p>
+        </section>
+        <section>
+            <h2>CV Download</h2>
+            <p><a href="doc/CV.pdf" download>Download CV</a></p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>Rensselaer Polytechnic Institute - Bachelor's degree in Computer Science (2022 - 2026)</p>
+            <p>Ningbo Foreign Language School - High School Diploma in General Education (Sep 2019 - May 2022)</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>React.js</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>English (Professional Working)</li>
+                <li>Mandarin (Native or Bilingual)</li>
+            </ul>
+        </section>
     </main>
     <footer>
         <div class="social-icons">
